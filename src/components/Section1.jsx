@@ -4,8 +4,10 @@ import bigimg from '../assets/img/bigimg.png';
 
 const Section1 = () => {
   return (
-    <div className="">
-      <div className="flex justify-between  max-lg:flex-col max-sm:flex-col max-sm:justify-center items-center">
+    <div className="w-full">
+      <div className="flex justify-between  items-center  max-lg:flex 
+      max-lg:justify-between max-md:flex-col 
+      max-sm:justify-center items-center">
         <div className="relative pl-20  max-md:left-0 lg:left-0 max-sm:pl-0">
           <div
             className="bg-white shadow-sm  max-w-[471px]  relative   top-20   z-50 px-1 py-4
@@ -33,7 +35,7 @@ const Section1 = () => {
         <div className="flex relative right-0  z-50">
           <div className="">
             <div className="max-w-[754px] max-h-[512px]  relative top-20  z-50 
-            max-lg:max-w-[400px] max-lg:mx-auto">
+            max-lg:w-[400px] max-lg:mx-auto">
               <div className="absolute  -left-10  top-12 -z-50 ">
                 <span className="bg-blue-300  px-16 py-12 rounded-full "></span>
               </div>

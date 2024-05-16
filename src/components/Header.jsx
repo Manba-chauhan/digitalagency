@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="w-full  ">
       <div className="flex justify-between items-center text-black shadow-sm px-10 py-6 
-      max-sm:px-2">
+      max-sm:px-2 max-lg:flex max-lg:justify-between  max-lg:items-center">
         <div className="flex justify-center items-center space-x-2 ">
           <span className="text-4xl text-black font-extrabold max-md:text-3xl">
             A+
@@ -14,7 +14,7 @@ const Header = () => {
           </h1>
         </div>
         <div className="max-md:hidden">
-          <ul className="flex space-x-20">
+          <ul className="flex space-x-20 max-lg:space-x-6">
             <li className='text-md font-medium hover:text-violet-400 cursor-pointer'>Home</li>
             <li className='text-md font-medium hover:text-violet-400 cursor-pointer'>About</li>
             <li className='text-md font-medium hover:text-violet-400 cursor-pointer'>Services</li>
@@ -22,7 +22,7 @@ const Header = () => {
             <li className='text-md font-medium hover:text-violet-400 cursor-pointer'>Contact</li>
           </ul>
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <span className='text-3xl'>
             <i class="fa-solid fa-bars"></i>
           </span>
