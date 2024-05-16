@@ -18,13 +18,16 @@ const Footer = () => {
             <li className="text-3xl text-blue-500">
               <i class="fa-brands fa-twitter"></i>
             </li>
-            <li className='text-3xl text-red-500'>
+            <li className="text-3xl text-red-500">
               <i class="fa-brands fa-instagram"></i>
             </li>
           </ul>
         </div>
         <div className="">
-          <div className="grid grid-cols-4 gap-20 max-lg:gap-5 max-md:grid-cols-2 max-sm:gri-cols-1">
+          <div
+            className="grid grid-cols-4 gap-20 
+          max-lg:gap-5 max-md:grid-cols-2 max-sm:gri-cols-1 max-sm:hidden"
+          >
             <div className="">
               <h1 className="text-lg font-bold">What We Do</h1>
               <ul>
@@ -46,7 +49,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="max-sm:hidden">
+            <div className="">
               <h1 className="text-lg font-bold">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
