@@ -3,10 +3,10 @@ import React from 'react';
 const Section6 = () => {
   return (
     <div className="max-w-[1200px] max-h-[400px] mx-auto relative top-40 
-     max-lg:mt-[650px] ">
+     max-lg:mt-[650px]  ">
       <div className="max-w-[1100px] max-h-[300px] mx-auto bg-blue-200 rounded-3xl  
-      flex justify-between ">
-        <div className="ml-10 my-20">
+      flex justify-between items-center ">
+        <div className="mx-10 my-20">
           <h1 className="text-4xl text-black font-bold max-sm:text-2xl">
             Subscriber NewsLetters
           </h1>
