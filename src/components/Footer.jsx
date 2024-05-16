@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="">
           <div
             className="grid grid-cols-4 gap-20 
-          max-lg:gap-5 max-md:grid-cols-2 max-sm:gri-cols-1 max-sm:hidden"
+          max-lg:gap-5 max-md:grid-cols-2 max-sm:gri-cols-1 max-md:hidden"
           >
             <div className="">
               <h1 className="text-lg font-bold">What We Do</h1>
