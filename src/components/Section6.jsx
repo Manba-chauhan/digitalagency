@@ -6,8 +6,8 @@ const Section6 = () => {
      max-lg:mt-[650px] ">
       <div className="max-w-[1100px] max-h-[300px] mx-auto bg-blue-200 rounded-3xl  
       flex justify-between ">
-        <div className="mx-10 my-20">
-          <h1 className="text-4xl text-black font-bold">
+        <div className="ml-10 my-20">
+          <h1 className="text-4xl text-black font-bold max-sm:text-2xl">
             Subscriber NewsLetters
           </h1>
           <p className="text-gray-400 font-medium text-sm mt-1">

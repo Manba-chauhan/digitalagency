@@ -11,7 +11,7 @@ const Footer = () => {
             We build readymade websites, mobile applications, and elaborate
             online business services.
           </p>
-          <ul className="flex space-x-6 mt-6 mb-6 ">
+          <ul className="flex space-x-6 mt-6 mb-6 max-sm:justify-center ">
             <li className="text-3xl text-blue-700">
               <i class="fa-brands fa-facebook"></i>
             </li>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="">
+            <div className="max-sm:hidden">
               <h1 className="text-lg font-bold">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
