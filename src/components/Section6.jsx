@@ -5,7 +5,7 @@ const Section6 = () => {
     <div className="max-w-[1200px] max-h-[400px] mx-auto relative top-40 
      max-lg:mt-[650px]  ">
       <div className="max-w-[1100px] max-h-[300px] mx-auto bg-blue-200 rounded-3xl  
-      flex justify-between items-center  max-sm:max-w-[500px] max-sm:mx-auto ">
+      flex justify-between items-center  max-sm:max-w-[480px] max-sm:mx-auto ">
         <div className="ml-20 mr-4 my-20">
           <h1 className="text-4xl text-black font-bold max-sm:text-2xl">
             Subscriber NewsLetters
