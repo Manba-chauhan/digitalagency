@@ -35,8 +35,8 @@ const Section1 = () => {
         <div className="flex relative right-0  z-50">
           <div className="">
             <div className="max-w-[754px] max-h-[512px]  relative top-20  z-50 
-            max-lg:w-[400px] max-lg:mx-auto">
-              <div className="absolute  -left-10  top-12 -z-50 ">
+            max-lg:w-[400px] max-lg:mx-auto max-sm:w-[350px]">
+              <div className="absolute  -left-10  top-12 -z-50  max-sm:left-0">
                 <span className="bg-blue-300  px-16 py-12 rounded-full "></span>
               </div>
               <img src={bigimg} alt="img" className=" w-full h-full object-cover" />
