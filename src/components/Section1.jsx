@@ -14,7 +14,7 @@ const Section1 = () => {
            
            max-md:w-full"
           >
-            <div className="">
+            <div className="max-sm:px-4">
               <h1 className="text-4xl text-black font-bold py-8 max-md:text-3xl">
                 A Digital Product Agency
               </h1>
