@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="relative max-w-[1200px] max-h-[400px] mx-auto mt-60">
       <div className="flex justify-between items-center max-md:flex-col">
-        <div className="w-2/4 mx-auto max-md:w-full max-md:ml-5">
+        <div className="w-2/4 mx-auto max-md:w-full max-md:ml-2">
           <h3 className="text-xl text-black font-bold">A+ Studio</h3>
           <p className="text-sm text-zinc-500 font-semibold max-sm:w-10/12">
             Leading digital agency with solid design and development expertise.
