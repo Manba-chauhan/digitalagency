@@ -37,10 +37,10 @@ const Section1 = () => {
             <div className="max-w-[754px] max-h-[512px]  relative top-20  z-50 
             max-lg:w-[400px] max-lg:mx-auto max-sm:w-[350px]">
               <div className="absolute  -left-10  top-12 -z-50  max-sm:left-0">
-                <span className="bg-blue-300  px-16 py-12 rounded-full "></span>
+                <span className="bg-blue-300  px-16 py-12 rounded-full max-sm:px-12 "></span>
               </div>
               <img src={bigimg} alt="img" className=" w-full h-full object-cover" />
-              <div className="absolute right-20 -z-50 max-xl:right-0 max-lg:right-0">
+              <div className="absolute right-20 -z-50 max-xl:right-0 max-lg:right-0 max-sm:right-5">
                 <span className="bg-yellow-50 p-20  rounded-r-full  "></span>
               </div>
             </div>
