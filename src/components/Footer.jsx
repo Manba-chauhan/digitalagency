@@ -6,12 +6,12 @@ const Footer = () => {
       <div className="flex justify-between items-center max-md:flex-col">
         <div className="w-2/4 mx-auto max-md:w-full max-md:ml-5">
           <h3 className="text-xl text-black font-bold">A+ Studio</h3>
-          <p className="text-sm text-zinc-500 font-semibold">
+          <p className="text-sm text-zinc-500 font-semibold max-sm:w-10/12">
             Leading digital agency with solid design and development expertise.
             We build readymade websites, mobile applications, and elaborate
             online business services.
           </p>
-          <ul className="flex space-x-8 mt-6 mb-6 max-sm:justify-center ">
+          <ul className="flex space-x-8 mt-6 mb-6 max-sm:justify-center max-sm:space-x-12">
             <li className="text-3xl text-blue-700">
               <i class="fa-brands fa-facebook"></i>
             </li>
