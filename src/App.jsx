@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='max-w-full max-h-screen mx-auto bg-white'>
+    <div className='max-w-full max-h-screen mx-auto bg-white max-md:overflow-x-hidden'>
   <Header />
   <Section1 />
   <Section2 />

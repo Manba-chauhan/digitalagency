@@ -29,7 +29,7 @@ const Footer = () => {
           max-lg:gap-5 max-md:grid-cols-2 max-sm:gri-cols-1 max-md:hidden"
           >
             <div className="">
-              <h1 className="text-lg font-bold">What We Do</h1>
+              <h1 className="text-md font-bold text-nowrap">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
                   Web Desige{" "}
@@ -50,7 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold">What We Do</h1>
+              <h1 className="text-md font-bold text-nowrap">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
                   Web Desige{" "}
@@ -68,7 +68,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold">What We Do</h1>
+              <h1 className="text-md font-bold text-nowrap">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
                   Web Desige{" "}
@@ -86,7 +86,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="">
-              <h1 className="text-lg font-bold">What We Do</h1>
+              <h1 className="text-md font-bold text-nowrap">What We Do</h1>
               <ul>
                 <li className="text-sm text-zinc-600 font-medium">
                   Web Desige{" "}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div className="w-full  ">
+    <div className="w-full  max-md:w-full ">
       <div className="flex justify-between items-center text-black shadow-sm px-10 py-6 
       max-sm:px-2 max-lg:flex max-lg:justify-between  max-lg:items-center">
         <div className="flex justify-center items-center space-x-2 ">

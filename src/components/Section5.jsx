@@ -16,7 +16,7 @@ const Section5 = () => {
   return (
     <div className=" relative top-20 max-w-[1300px] max-h-[600px] mx-auto max-lg:max-w-[1000px] max-lg:mx-auto ">
       <div className="">
-        <h1 className="text-black text-4xl text-center text-extrabold">
+        <h1 className="text-black text-4xl text-center text-extrabold max-sm:text-2xl">
           What our happy client say
         </h1>
         <p className="text-zinc-500 mt-3 text-md text-center text-bold">
@@ -40,7 +40,7 @@ const Section5 = () => {
             relative -right-12 -top-40  -z-50  max-md:hidden  max-sm:hidden max-lg:right-10"
             ></span>
           </div>
-          <div className="max-w-1/2  max-sm:ml-8">
+          <div className="max-w-1/2  max-sm:ml-3">
             <h2 className="text-black  text-2xl font-meduim">Matthew Paul</h2>
             <p className="text-zinc-600 text-meduim w-3/6 text-sm max-lg:w-full ">
               Perfect, very good job! Thank you for the amazing design and work.

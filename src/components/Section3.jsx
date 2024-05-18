@@ -9,31 +9,31 @@ import box4 from "../assets/img/box4.png";
 const Section3 = () => {
   return (
     <div className="my-20 max-sm:w-full">
-      <div className="bg-white  ml-20 
+      <div className="bg-white  max-md:ml-1
       flex max-lg:flex-col ">
         <div className="">
           <div className="">
             <span className="bg-yellow-50 p-20 rounded-l-full"></span>
           </div>
           <div className="">
-            <h1 className="text-4xl font-bold  w-8/12  max-sm:w-full">
+            <h1 className="text-4xl font-bold  w-8/12  max-sm:w-full max-md:text-3xl">
               How can we help your Business ?
             </h1>
-            <p className="text-lg font-normal mt-2  w-11/12 text-gray-600">
+            <p className="text-lg font-normal mt-2  w-11/12 text-gray-600 max-md:w-full">
               We build readymade websites, mobile applications, and elaborate
               online business services.
             </p>
           </div>
-          <div className="w-[400px] h-[150px] relative top-10 max-sm:w-[300px]  ">
+          <div className="w-[400px] h-[150px] relative top-10 max-md:hidden  ">
             <img src={dot2} alt="dot" className="w-full h-full object-cover" />
           </div>
         </div>
-        <div className="max-lg:-ml-20 max-md:-ml-20  ">
+        <div className="  ">
           <div className="relative max-w-[1047px] mx-h-[620px]  relative top-40 ">
             <span className="bg-blue-200 py-60 px-96 rounded-ss-[150px] max-lg:hidden  relative z-50 "></span>
           </div>
           <div className="">
-            <div className="relative -top-40  z-50 ">
+            <div className="relative -top-40  z-50 max-sm:left-0 ">
               <div className="grid grid-cols-2 grid-rows-2 gap-5 
               max-lg:grid-cols-2 max-sm:grid-cols-1">
                 <div className="relative top-20 max-sm:top-40">
@@ -43,7 +43,7 @@ const Section3 = () => {
                     text="We present you a proposal and discuss niffty-gritty like"
                   />
                 </div>
-                <div className="relative -left-8  max-sm:left-0  max-sm:top-40">
+                <div className="relative -left-8  max-md:left-0  max-sm:top-40">
                   <Card
                     src={box2}
                     heading="Financial Planning System"
@@ -72,7 +72,7 @@ const Section3 = () => {
           <div className=" relative -top-64  ">
             <span
               className="px-10 py-8 border-4  rounded-full  border-rose-600 
-            absolute -right-0  -z-0  max-md:hidden  max-sm:hidden max-lg:right-10"
+            absolute -right-0  -z-0  max-md:hidden  max-sm:hidden"
             ></span>
           </div>
         </div>
